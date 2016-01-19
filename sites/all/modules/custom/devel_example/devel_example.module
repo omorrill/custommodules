@@ -1,0 +1,10 @@
+<?php
+/**
+ * Implements hook_init().
+ *
+ * Funs on every page.
+ */
+function devel_example_init() {
+  global $user;
+  kpr($user);
+}
